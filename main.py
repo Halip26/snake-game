@@ -23,7 +23,7 @@ dis_height = 400
 dis = pygame.display.set_mode((dis_width, dis_height))
 
 # Beri judul pada layar
-pygame.display.set_caption('Snake Game')
+pygame.display.set_caption("Snake Game")
 
 # Buat objek clock
 clock = pygame.time.Clock()
@@ -81,10 +81,8 @@ def gameLoop():
 
     # Looping untuk tidak game over
     while not game_over:
-
         # Looping untuk game close
         while game_close == True:
-
             # Mengisi layar dengan warna biru
             dis.fill(blue)
             # Menampilkan pesan untuk kalah dalam permainan
@@ -156,10 +154,8 @@ def gameLoop():
 
         # Jika ular memakan makanan, hasilkan makanan baru dan tambahkan panjang ular
         if x1 == foodx and y1 == foody:
-            foodx = round(random.randrange(
-                0, dis_width - snake_block) / 10.0) * 10.0
-            foody = round(random.randrange(
-                0, dis_height - snake_block) / 10.0) * 10.0
+            foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
+            foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
             Length_of_snake += 1
 
         # Menentukan kecepatan permainan
