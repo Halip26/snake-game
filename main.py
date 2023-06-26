@@ -1,7 +1,4 @@
-# Import library pygame
 import pygame
-
-# Import library random
 import random
 
 # Inisialisasi pygame
