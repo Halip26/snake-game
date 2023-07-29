@@ -4,7 +4,7 @@ import random
 # Inisialisasi pygame
 pygame.init()
 
-# Definisikan warna yang akan digunakan
+# Inisialisasi warna2 yang akan digunakan
 white = (255, 255, 255)
 yellow = (255, 255, 102)
 black = (0, 0, 0)
