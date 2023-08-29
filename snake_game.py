@@ -31,7 +31,7 @@ snake_speed = 5
 
 # Tentukan font style yang akan digunakan
 font_style = pygame.font.SysFont("bahnschrift", 25)
-score_font = pygame.font.SysFont("comicsansms", 35)
+score_font = pygame.font.SysFont("comicsansms", 25)
 
 
 # Definisikan fungsi untuk menampilkan skor
