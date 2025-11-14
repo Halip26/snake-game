@@ -1,4 +1,4 @@
-# Snake Game
+# Snake Game by [Mr. Halip](https://halip26.github.io)
 
 ## Description
 
