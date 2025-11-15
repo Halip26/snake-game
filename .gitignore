@@ -1,0 +1,11 @@
+.vscode/
+
+__pycache__/
+
+env/
+
+tempCodeRunnerFile.py
+
+.DS_Store
+
+*.log
