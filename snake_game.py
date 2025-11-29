@@ -24,7 +24,7 @@ WINDOW_SIZE = (WIDTH, HEIGHT)
 WINDOW_TITLE = "Snake Game"
 
 # Modify the image path constant to be more specific
-INTRO_BG = pygame.image.load(os.path.join("assets\image-snake-game.png"))
+INTRO_BG = pygame.image.load(os.path.join("assets/image-snake-game.png"))
 # scale image to fit the window
 SET_BG = pygame.transform.scale(INTRO_BG, (WIDTH, HEIGHT))
 
